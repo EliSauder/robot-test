@@ -6,9 +6,9 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
-group = 'org.frcnomad'
+group = 'org.frcnomad.robot.2021'
 
-def ROBOT_MAIN_CLASS = "frc.robot.Main"
+def ROBOT_MAIN_CLASS = "org.frcnomad.robot.2021.Main"
 
 deploy {
     targets {
