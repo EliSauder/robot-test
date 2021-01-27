@@ -1,1 +1,5 @@
-rootProject.name = 'robot-test'
+sourceControl {
+    gitRepository("https://github.com/EliSauder/robot-lib-test.git") {
+        producesModule("org.frcnomad:lib")
+    }
+}

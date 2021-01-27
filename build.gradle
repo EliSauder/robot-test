@@ -1,6 +1,8 @@
 plugins {
-    id "java"
+    id "application"
 }
+
+group = 'org.frcnomad'
 
 repositories {
     mavenCentral()
@@ -9,9 +11,15 @@ repositories {
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
-group = 'org.frcnomad'
+mainClassName = 'org.frcnomad.robot.Main'
 
 dependencies {
+    implementation('org.frcnomad:lib') {
+        version {
+            branch = 'noFRC'
+        }
+    }
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
     
