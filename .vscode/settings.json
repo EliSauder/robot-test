@@ -1,3 +1,18 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.gradle": true,
+        "**/.settings": true,
+        "**/build": true,
+        "**/bin": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/gradlew*": true,
+        "**/gradle/": true
+    }
 }
