@@ -17,7 +17,7 @@ mainClassName = 'org.frcnomad.robot.Main'
 
 dependencies {
 
-    implementation 'com.github.EliSauder:robot-lib-test:0.1.8'
+    implementation 'com.github.EliSauder:robot-lib-test:noFRC-SNAPSHOT'
 
     // implementation('org.frcnomad:lib') {
     //     version {
