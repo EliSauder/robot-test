@@ -1,5 +1,3 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "java.import.gradle.wrapper.enabled": true,
-    "java.maven.downloadSources": true
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
