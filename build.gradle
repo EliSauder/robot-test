@@ -6,6 +6,8 @@ group = 'org.frcnomad'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
+
 }
 
 sourceCompatibility = JavaVersion.VERSION_11
@@ -14,11 +16,16 @@ targetCompatibility = JavaVersion.VERSION_11
 mainClassName = 'org.frcnomad.robot.Main'
 
 dependencies {
-    implementation('org.frcnomad:lib') {
-        version {
-            branch = 'noFRC'
-        }
-    }
+
+    implementation 'com.github.EliSauder:robot-lib-test:0.1.8'
+
+    // implementation('org.frcnomad:lib') {
+    //     version {
+    //         branch = 'noFRC'
+    //     }
+    // }
+
+    implementation 'org.apache.commons:commons-math3:3.6.1'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
